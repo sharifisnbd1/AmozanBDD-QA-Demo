@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="StepDefinitions.Amazon_sd">
+        <methods>
+          <include name="find_out_total_page_number_of_iphone"/>
+          <include name="search_iphone"/>
+          <include name="sort_iphone_High_to_Low_price"/>
+          <include name="login_with_valid_credential"/>
+          <include name="user_able_to_open_browser"/>
+          <include name="validate_amazon_home_page"/>
+        </methods>
+      </class> <!-- StepDefinitions.Amazon_sd -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
